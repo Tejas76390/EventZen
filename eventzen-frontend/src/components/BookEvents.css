@@ -1,0 +1,88 @@
+.book-events-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: row; /* Ensures horizontal alignment */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: center;
+  gap: 30px; /* Increased spacing between event cards */
+  margin-top: 20px;
+}
+
+.event-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 25px; /* Increased padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Increased width */
+  height: 350px; /* Increased height */
+  text-align: center;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Moves text to the bottom */
+  align-items: center;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-card h3 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.event-card p {
+  font-size: 17px;
+  margin: 3px 0;
+  color: #555;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.booked-events {
+  margin-top: 30px;
+}
+
+.booked-events h3 {
+  color: #007bff;
+}
+
+.booked-events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.booked-events li {
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+
+
+  

@@ -1,0 +1,47 @@
+.attendee-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.attendee-list {
+    list-style: none;
+    padding: 0;
+}
+
+.attendee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* ✅ Ensures status boxes align properly */
+    padding: 10px;
+    background: white;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    min-width: 100px; /* ✅ Ensures all status boxes are equal */
+    text-align: center; /* ✅ Centers text */
+    display: inline-block;
+}
+
+.status.pending {
+    background-color: orange;
+    color: white;
+}
+
+.status.confirmed {
+    background-color: green;
+    color: white;
+}
+
+.status.cancelled {
+    background-color: red;
+    color: white;
+}
+
+  

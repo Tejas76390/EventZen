@@ -1,0 +1,6 @@
+# Ignore node_modules as it's not needed in the container
+node_modules/
+
+# Ignore .env files for security reasons
+.env
+

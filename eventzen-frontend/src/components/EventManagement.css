@@ -1,0 +1,74 @@
+.event-management-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Form Input Fields */
+.event-form input, .event-form textarea, .event-form button {
+  width: 100%; /* Ensures all elements have the same width */
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box; /* Keeps width consistent */
+}
+
+/* Event Title & Description */
+.event-form input {
+  border: 1px solid #ccc;
+}
+
+.event-form textarea {
+  border: 1px solid #ccc;
+  resize: none; /* Prevent resizing */
+  height: 80px; /* Fixed height */
+}
+
+/* Add Event Button */
+.event-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.event-form button:hover {
+  background: #0056b3;
+}
+
+/* Event List */
+.event-list {
+  list-style: none;
+  padding: 0;
+}
+
+.event-list li {
+  background: #f8f9fa;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Delete Event Button */
+.event-list button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.event-list button:hover {
+  background: darkred;
+}
+
+
+  
